@@ -21,7 +21,7 @@
 }
 
 .navbar {
-  background-color: rgba(128, 128, 128,.5) !important;
+  background-color: rgb(247, 0, 0)!important;
 }
 
 
@@ -30,7 +30,7 @@ a,tudo {
 }
 
 .droM {
-  background-color:rgba(128, 128, 128,.5) ; 
+  background-color:gray ; 
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
 }
@@ -39,7 +39,7 @@ i {
   font-size: 50px;
   padding: 3px;
   /* Primeiro passo: definir um degradê como fundo */
-  background-image: linear-gradient(to bottom, #00ffff, rgb(65, 145, 49));
+  background-image: linear-gradient(to bottom, #fae900, rgb(66, 182, 66), black);
   
   /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
   background-clip: text;
@@ -90,7 +90,7 @@ h2 {
 }
 
  .card-body{
-  background-color: rgba(128, 128, 128,.5);
+  background-color: rgb(255, 255, 255)!important;
 }
 
 /*Form*/
