@@ -1,7 +1,8 @@
 .pd-15 {
   padding: 15px;
 }
-.pd-b-15{
+
+.pd-b-15 {
   padding-bottom: 15px;
 }
 
@@ -21,35 +22,41 @@
 }
 
 .navbar {
-  background-color: rgb(247, 0, 0)!important;
+  background-color: rgb(247, 0, 0) !important;
 }
 
 
-a,tudo {
+a,
+tudo {
   color: white !important;
 }
 
 .nMen:hover {
   background-color: white;
-border-radius: 20px;
-  color:black !important;
+  border-radius: 20px;
+  color: black !important;
   transition: all .2s;
 }
 
-a.dropdown-ite{
+a.dropdown-ite {
   margin: 10px;
   padding: 4px 10px !important;
+
 }
 
-a.dropdown-item:hover{
+a.dropdown-item {
+  transition: all .5s;
+}
+
+a.dropdown-item:hover {
   background-color: white;
   border-start-start-radius: 20px;
   border-end-start-radius: 20px;
-  color:black !important;
+  color: black !important;
 }
 
 .droM {
-  background-color:gray ; 
+  background-color: gray;
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
 }
@@ -59,42 +66,43 @@ i {
   padding: 3px;
   /* Primeiro passo: definir um degradê como fundo */
   background-image: linear-gradient(to bottom, #fae900, rgb(66, 182, 66), black);
-  
+
   /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
   background-clip: text;
-  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  -webkit-background-clip: text;
+  /* Alguns navegadores precisam do prefixo */
 
   /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
   -webkit-text-fill-color: transparent;
 
   /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
   color: black;
-  
+
 }
 
 .footer {
-  background-color: black ;
+  background-color: black;
 }
 
 
 /*Card*/
 
 #todoCard {
-  background-image: linear-gradient(to right, rgb(65, 145, 49) , #00ffff);
+  background-image: linear-gradient(to right, rgb(65, 145, 49), #00ffff);
 }
 
 
 #carouselExampleControls {
-margin: 50px;
+  margin: 50px;
 
 }
 
 
-.container-card{
+.container-card {
   display: flex;
   justify-content: center;
-  
-  
+
+
 }
 
 
@@ -108,18 +116,18 @@ h2 {
 
 }
 
- .card-body{
-  background-color: rgb(255, 255, 255)!important;
+.card-body {
+  background-color: rgb(255, 255, 255) !important;
 }
 
 /*Form*/
 
 .container-form {
   display: flex;
- align-items: center;
- justify-content: center;
- height: 600px;
- text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  text-align: center;
 
 }
 
@@ -140,6 +148,6 @@ h2 {
   border-radius: 10px !important;
 }
 
-p{
+p {
   padding-left: 15px;
 }
